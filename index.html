@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Path of Exile clickbait</title>
+        <link rel="stylesheet" type="text/css" href="jacobo/styles.css">
+        <style>
+p {
+    color: Black;
+    font-size: 30px;
+    border: 5px solid green;
+    padding: 30px;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+div {
+    text-align: center;
+  }
+  
+.link-sections {
+    background-color: lavender;
+    }  
+    
+.link-sections p {
+    border: 10px dotted #009900;
+}
+
+.link-section a {
+    color : forestgreen;
+}
+img {
+    max-width: 1000px;
+}
+        </style>
+</head>
+<body>
+    <div>
+        <img src="https://cdn.flickeringmyth.com/wp-content/uploads/2017/12/Path-of-Exile-logo.jpg"/>
+        <p>
+           Hello! Here are some free points for POE mtx.
+           <br>
+           Just click the link below!
+        </p>
+         <a href="https://www.pathofexile.com/account/create" target="_blank">Get free points</a>
+    </div>
+     <div class="link-sections">
+        <p>
+          If the first link dindn't work, try the second one!
+          <br>
+                    <a href="http://store.steampowered.com/app/238960/Path_of_Exile" target="_blank">Even more free points</a> 
+        </p>
+    </div>
+    </div>
+     </div>
+     <div>
+        <p id="helloText">If this didn't work press this : <button id="myButton">Presse me</button></p>
+        
+    </div>
+     <div class="link-sections">
+        <p>
+           Let people know about this awsome website!
+           <br>
+            <a href="https://www.reddit.com/r/pathofexile/" target="_blank">This is awsome!</a>
+        </p>
+    
+    <script>
+        var text = document.getElementById("helloText");
+        var button = document.getElementById("myButton");
+        
+        button.addEventListener("click", changeIt, false);
+        
+        function changeIt() {
+        text.textContent = "Just instal POE already! ^^";
+        }
+    </script>
+</body>
+</html>
